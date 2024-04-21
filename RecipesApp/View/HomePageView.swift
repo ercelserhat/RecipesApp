@@ -9,7 +9,18 @@ import SwiftUI
 
 struct HomePageView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack{
+            LinearGradient(colors: [.clear, .gray.opacity(0.1)], startPoint: .top, endPoint: .bottom)
+                .ignoresSafeArea()
+            NavigationStack{
+                ScrollView{
+                    VStack{
+                        HeaderView()
+                    }
+                    .padding(.horizontal)
+                }
+            }
+        }
     }
 }
 
