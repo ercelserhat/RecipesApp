@@ -15,7 +15,11 @@ struct HomePageView: View {
             NavigationStack{
                 ScrollView{
                     VStack{
+                        // Header View
                         HeaderView()
+                        
+                        // Search TextField View
+                        SearchTextFieldView()
                     }
                     .padding(.horizontal)
                 }
