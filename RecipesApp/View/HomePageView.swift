@@ -20,6 +20,18 @@ struct HomePageView: View {
                         
                         // Search TextField View
                         SearchTextFieldView()
+                        
+                        // Categories
+                        ScrollView(.horizontal){
+                            HStack{
+                                ForEach(Categories.allCases, id: \.self){ category in
+                                    CategoryItemView(title: category.title, imageName: category.imageName)
+                                        .padding(.horizontal, 5)
+                                }
+                            }
+                            .padding(.vertical)
+                        }
+                        .scrollIndicators(.hidden)
                     }
                     .padding(.horizontal)
                 }
