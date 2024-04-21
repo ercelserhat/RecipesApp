@@ -13,6 +13,7 @@
 		7A5419132BD5B11B0041CE08 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A5419122BD5B11B0041CE08 /* Preview Assets.xcassets */; };
 		7A54191B2BD5BB5D0041CE08 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A54191A2BD5BB5D0041CE08 /* HeaderView.swift */; };
 		7A54191D2BD5BDC30041CE08 /* HomePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A54191C2BD5BDC30041CE08 /* HomePageView.swift */; };
+		7A54191F2BD5C73E0041CE08 /* SearchTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A54191E2BD5C73E0041CE08 /* SearchTextFieldView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		7A5419122BD5B11B0041CE08 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7A54191A2BD5BB5D0041CE08 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		7A54191C2BD5BDC30041CE08 /* HomePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageView.swift; sourceTree = "<group>"; };
+		7A54191E2BD5C73E0041CE08 /* SearchTextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTextFieldView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 			children = (
 				7A54191A2BD5BB5D0041CE08 /* HeaderView.swift */,
 				7A54191C2BD5BDC30041CE08 /* HomePageView.swift */,
+				7A54191E2BD5C73E0041CE08 /* SearchTextFieldView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -152,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7A54190E2BD5B11A0041CE08 /* ContentView.swift in Sources */,
+				7A54191F2BD5C73E0041CE08 /* SearchTextFieldView.swift in Sources */,
 				7A54191B2BD5BB5D0041CE08 /* HeaderView.swift in Sources */,
 				7A54191D2BD5BDC30041CE08 /* HomePageView.swift in Sources */,
 				7A54190C2BD5B11A0041CE08 /* RecipesAppApp.swift in Sources */,
