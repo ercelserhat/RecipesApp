@@ -16,6 +16,7 @@
 		7A54191F2BD5C73E0041CE08 /* SearchTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A54191E2BD5C73E0041CE08 /* SearchTextFieldView.swift */; };
 		7A5419242BD5CA760041CE08 /* Categories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5419232BD5CA760041CE08 /* Categories.swift */; };
 		7A5A194A2BD5CCA400D90C70 /* CategoryItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5A19492BD5CCA400D90C70 /* CategoryItemView.swift */; };
+		7A5A194E2BD5D0AA00D90C70 /* RecipeCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5A194D2BD5D0AA00D90C70 /* RecipeCardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		7A54191E2BD5C73E0041CE08 /* SearchTextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTextFieldView.swift; sourceTree = "<group>"; };
 		7A5419232BD5CA760041CE08 /* Categories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Categories.swift; sourceTree = "<group>"; };
 		7A5A19492BD5CCA400D90C70 /* CategoryItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryItemView.swift; sourceTree = "<group>"; };
+		7A5A194D2BD5D0AA00D90C70 /* RecipeCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				7A54191C2BD5BDC30041CE08 /* HomePageView.swift */,
 				7A54191E2BD5C73E0041CE08 /* SearchTextFieldView.swift */,
 				7A5A19492BD5CCA400D90C70 /* CategoryItemView.swift */,
+				7A5A194D2BD5D0AA00D90C70 /* RecipeCardView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -172,6 +175,7 @@
 				7A5419242BD5CA760041CE08 /* Categories.swift in Sources */,
 				7A54191F2BD5C73E0041CE08 /* SearchTextFieldView.swift in Sources */,
 				7A5A194A2BD5CCA400D90C70 /* CategoryItemView.swift in Sources */,
+				7A5A194E2BD5D0AA00D90C70 /* RecipeCardView.swift in Sources */,
 				7A54191B2BD5BB5D0041CE08 /* HeaderView.swift in Sources */,
 				7A54191D2BD5BDC30041CE08 /* HomePageView.swift in Sources */,
 				7A54190C2BD5B11A0041CE08 /* RecipesAppApp.swift in Sources */,
