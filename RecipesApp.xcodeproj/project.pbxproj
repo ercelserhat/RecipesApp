@@ -18,6 +18,7 @@
 		7A5A194A2BD5CCA400D90C70 /* CategoryItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5A19492BD5CCA400D90C70 /* CategoryItemView.swift */; };
 		7A5A194E2BD5D0AA00D90C70 /* RecipeCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5A194D2BD5D0AA00D90C70 /* RecipeCardView.swift */; };
 		7ABA38772BD7F21D007FD887 /* LoginPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ABA38762BD7F21D007FD887 /* LoginPageView.swift */; };
+		7ABA387A2BD81C5B007FD887 /* RegisterPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ABA38782BD809DA007FD887 /* RegisterPageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		7A5A19492BD5CCA400D90C70 /* CategoryItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryItemView.swift; sourceTree = "<group>"; };
 		7A5A194D2BD5D0AA00D90C70 /* RecipeCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCardView.swift; sourceTree = "<group>"; };
 		7ABA38762BD7F21D007FD887 /* LoginPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPageView.swift; sourceTree = "<group>"; };
+		7ABA38782BD809DA007FD887 /* RegisterPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterPageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +94,7 @@
 				7A5A19492BD5CCA400D90C70 /* CategoryItemView.swift */,
 				7A5A194D2BD5D0AA00D90C70 /* RecipeCardView.swift */,
 				7ABA38762BD7F21D007FD887 /* LoginPageView.swift */,
+				7ABA38782BD809DA007FD887 /* RegisterPageView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -180,6 +183,7 @@
 				7A5A194A2BD5CCA400D90C70 /* CategoryItemView.swift in Sources */,
 				7A5A194E2BD5D0AA00D90C70 /* RecipeCardView.swift in Sources */,
 				7A54191B2BD5BB5D0041CE08 /* HeaderView.swift in Sources */,
+				7ABA387A2BD81C5B007FD887 /* RegisterPageView.swift in Sources */,
 				7A54191D2BD5BDC30041CE08 /* HomePageView.swift in Sources */,
 				7A54190C2BD5B11A0041CE08 /* RecipesAppApp.swift in Sources */,
 				7ABA38772BD7F21D007FD887 /* LoginPageView.swift in Sources */,

@@ -125,7 +125,7 @@ struct LoginPageView: View {
                             .fontWeight(.semibold)
                             .foregroundStyle(.white.opacity(0.7))
                         NavigationLink {
-                            Text("Register")
+                            RegisterPageView()
                         } label: {
                             Text("Sign Up")
                                 .underline()
