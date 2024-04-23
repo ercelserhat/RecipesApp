@@ -30,11 +30,11 @@ struct RecipeCardView: View {
                     }
                 }
                 .font(.headline)
-                .foregroundStyle(.white)
+                .foregroundStyle(.black)
                 .padding(.horizontal)
                 .padding(.bottom, 7)
             }
-            .background(.crimson)
+            .background(.goldyellow)
             .clipShape(RoundedRectangle(cornerRadius: 25.0))
             .shadow(radius: 10)
             
@@ -77,7 +77,8 @@ struct RecipeCardView: View {
             .offset(y: 10)
             .padding(.horizontal, 10)
         }
-        .padding()
+        .padding(.horizontal)
+        .padding(.bottom)
     }
 }
 

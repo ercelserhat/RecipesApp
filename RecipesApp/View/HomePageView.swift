@@ -17,9 +17,11 @@ struct HomePageView: View {
                     VStack{
                         // Header View
                         HeaderView()
+                            .padding(.horizontal)
                         
                         // Search TextField View
                         SearchTextFieldView()
+                            .padding(.horizontal)
                         
                         // Categories
                         ScrollView(.horizontal){
@@ -29,13 +31,18 @@ struct HomePageView: View {
                                         .padding(.horizontal, 5)
                                 }
                             }
-                            .padding(.vertical)
+                            .padding()
                         }
                         .scrollIndicators(.hidden)
+                        
+                        RecipeCardView()
+                        RecipeCardView()
+                        RecipeCardView()
                     }
-                    .padding(.horizontal)
+                    .padding(.top)
                 }
             }
+            
         }
     }
 }
