@@ -51,6 +51,7 @@
 
 /* Begin PBXFileReference section */
 		7A112EC42BD82A3100BF8561 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		7A112EFD2BD832DD00BF8561 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		7A5419082BD5B11A0041CE08 /* RecipesApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RecipesApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A54190B2BD5B11A0041CE08 /* RecipesAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesAppApp.swift; sourceTree = "<group>"; };
 		7A54190D2BD5B11A0041CE08 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -123,6 +124,7 @@
 		7A54190A2BD5B11A0041CE08 /* RecipesApp */ = {
 			isa = PBXGroup;
 			children = (
+				7A112EFD2BD832DD00BF8561 /* Info.plist */,
 				7A5419222BD5CA6B0041CE08 /* Model */,
 				7A5419192BD5BB500041CE08 /* View */,
 				7A54190B2BD5B11A0041CE08 /* RecipesAppApp.swift */,
@@ -412,6 +414,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"RecipesApp/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RecipesApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -440,6 +443,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"RecipesApp/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RecipesApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
