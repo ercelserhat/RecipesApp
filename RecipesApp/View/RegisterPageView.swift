@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import Firebase
 
 struct RegisterPageView: View {
     @State private var name: String = ""
@@ -19,6 +20,8 @@ struct RegisterPageView: View {
     @FocusState private var passwordAgainFocused: Bool
     
     @Environment(\.dismiss) private var dismiss
+    
+    var refUsers = Database.database().reference().child("users")
     
     var body: some View {
         ZStack{
@@ -141,9 +144,18 @@ struct RegisterPageView: View {
                     .clipShape(RoundedRectangle(cornerRadius: 15))
                 }
                 
-                //Login Button
+                //Register Button
                 Button(action: {
-                    
+                    if name != "" && email != "" && password != "" && passwordAgain != ""{
+                        Auth.auth().createUser(withEmail: email, password: password) { authdataresult, error in
+                            if error != nil{
+                                print("Hata: \(error?.localizedDescription ?? "Kayıt sırasında hata oluştu.")")
+                            } else{
+                                let newUser = ["user_name" : self.name, "user_email" : self.email, "user_password" : self.password]
+                                refUsers.childByAutoId().setValue(newUser)
+                            }
+                        }
+                    }
                 }, label: {
                     Text("Register")
                         .fontWeight(.semibold)
