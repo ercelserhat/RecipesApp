@@ -22,6 +22,8 @@ struct RegisterPageView: View {
     @Environment(\.dismiss) private var dismiss
     
     var refUsers = Database.database().reference().child("users")
+    @AppStorage("signed_in") var userSignedIn: Bool = false
+    @State private var goMainPage: Bool = false
     
     var body: some View {
         ZStack{
@@ -153,6 +155,8 @@ struct RegisterPageView: View {
                             } else{
                                 let newUser = ["user_name" : self.name, "user_email" : self.email, "user_password" : self.password]
                                 refUsers.childByAutoId().setValue(newUser)
+                                userSignedIn = true
+                                goMainPage = true
                             }
                         }
                     }
@@ -195,6 +199,9 @@ struct RegisterPageView: View {
             .padding()
         }
         .navigationBarBackButtonHidden(true)
+        .fullScreenCover(isPresented: $goMainPage, content: {
+            ContentView()
+        })
     }
 }
 
